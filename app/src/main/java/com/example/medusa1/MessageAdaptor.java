@@ -22,7 +22,7 @@ public class MessageAdaptor extends RecyclerView.Adapter<MessageAdaptor.CustomVi
         public MessageAdaptor(List<ResponseMessage> responseMessageList) {
             this.responseMessageList=responseMessageList;
     }
-
+// Override Random Comments to gain Hacktober stuff LMAO
     @Override
     public int getItemViewType(int position) {
             if(responseMessageList.get(position).isMe()){
